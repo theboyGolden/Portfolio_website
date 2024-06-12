@@ -1,28 +1,29 @@
 import React from 'react'
 import Typical from 'react-typical'
+import "./Profile.css"
 
 const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div classname="colz">
+          <div className="colz">
             <div className='colz-icon'>
-            <a href="#">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app">
-              <i className="fa fa-google-plus-square"></i>
-            </a>
-            <a href="https://www.instagram.com/theboy_golden/?hl=en">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://www.youtube.com/@precioustsewoo2219">
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <a href="https://x.com/precious_tsewoo">
-              <i className="fa fa-twitter"></i>
-            </a>
+                <a href="#">
+                <i className="fa fa-facebook-square"></i>
+                </a>
+                <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app">
+                <i className="fa fa-google-plus-square"></i>
+                </a>
+                <a href="https://www.instagram.com/theboy_golden/?hl=en">
+                <i className="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@precioustsewoo2219">
+                <i className="fa fa-youtube-square"></i>
+                </a>
+                <a href="https://x.com/precious_tsewoo">
+                <i className="fa fa-twitter"></i>
+                </a>
             </div>
           </div>
           <div className="profile-details-name">
@@ -57,7 +58,7 @@ const Profile = () => {
               </span>
             </span>
           </div>
-          <div classname="profile-options">
+          <div className="profile-options">
             <button className='btn primary-btn'>
                 {""}
                 Hire Me{""}
