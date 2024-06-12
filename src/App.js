@@ -1,10 +1,11 @@
 import React from 'react'
-import Profile from './PortfolioContainer/Home/Profile'
+import Home from './PortfolioContainer/Home/Home'
+import './App.css'
 
 const App = () => {
   return (
     <div className='App'>
-      <Profile />
+      <Home />
     </div>
   )
 }
