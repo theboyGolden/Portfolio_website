@@ -1,0 +1,45 @@
+.aboutMe {
+    text-align: left;
+    margin: 50px;
+    
+    width: 90%;
+}
+
+.skillgridbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    width: 90%;
+    margin-left: 80px;
+
+}
+
+.skillgrid {
+    height: 300px;
+    width: 250px;
+    background-color: #313131;
+    border-radius: 20px;
+    box-shadow: #313131;
+    align-content: center;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+.aboutMeHeader {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.frontend, .backend, .cybersecurity, .mobileApp {
+    color: #9999A1;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.frontendIcon, .backendIcon, .cybersecurityIcon, .mobileAppIcon {
+    height: 100px;
+    width: 100px;
+    color: #fff;
+}
