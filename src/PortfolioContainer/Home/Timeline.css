@@ -1,0 +1,107 @@
+.timeline {
+    position: relative;
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #e5e2e2;
+    border-bottom-left-radius: 200px;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item.right {
+    justify-content: flex-end;
+}
+
+.timeline-content {
+    background-color: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    width: 45%;
+    z-index: 2;
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: 20px;
+}
+
+.timeline-content.left::before {
+    left: 100%;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #525252;
+    margin-top: 50px;
+}
+
+.timeline-content.right::before {
+    right: 100%;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #525252 transparent transparent;
+    margin-top: 50px;
+}
+
+.timeline-content.left {
+    margin-right: 25px;
+    background-color: #525252;
+}
+
+.timeline-content.right {
+    margin-left: 25px;
+    background-color: #525252;
+}
+
+.timeline-circle {
+    background-color: #050505;
+    border: 2px solid #070707;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.timeline-circle::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #060606;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+h2, p {
+    color: #eaeaea;
+}

@@ -1,0 +1,16 @@
+.experience {
+    padding-top: 50px;
+    margin-top: 50px;
+    background-color: #e5e2e2;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.experienceheader{
+    margin-left: 50px;
+    color:black;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
